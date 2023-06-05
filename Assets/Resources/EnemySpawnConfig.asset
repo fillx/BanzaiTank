@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26314f077d4b4e79a252361d8aac6466, type: 3}
+  m_Name: EnemySpawnConfig
+  m_EditorClassIdentifier: 
+  SpawnInterval: 0.5
+  MaxEnemiesOnLevel: 10
+  Enemies:
+  - Prefab: {fileID: 7387885166267869492, guid: 4c48d5174e649514b94374553c7dfe78, type: 3}
+    EnemyModel:
+      Name: 
+      Attack: 10
+      Hp: 20
+      DefenceModifier: 0.4
+      MoveSpeed: 3
+  - Prefab: {fileID: 5170771344759699652, guid: ccf047eb178ce804caeb0ad1426a6779, type: 3}
+    EnemyModel:
+      Name: 
+      Attack: 15
+      Hp: 30
+      DefenceModifier: 0.6
+      MoveSpeed: 4
+  - Prefab: {fileID: 5170771344759699652, guid: 92190e6e4053efa4f82fdbd33fa86498, type: 3}
+    EnemyModel:
+      Name: 
+      Attack: 20
+      Hp: 40
+      DefenceModifier: 0.8
+      MoveSpeed: 5
